@@ -1,0 +1,246 @@
+header{
+    background: linear-gradient(90deg,#eeaeca,#94bbe9);
+    align-items: center;
+}
+header
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    background:linear-gradient(90deg,red,blue );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 40px;
+   
+}
+nav{
+    display: contents;
+}
+nav li{
+    display: contents;
+
+}
+nav li a{
+    text-decoration: none;
+    display: inline-block;
+    background:linear-gradient(90deg,red,blue );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 70px;
+    font-weight: bold;
+    transition: .5s;
+   
+
+}
+nav li a:hover{
+    text-decoration: none;
+    display: inline-block;
+    background:linear-gradient(90deg,blue,red );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 40px;
+    font-weight: bolder;
+    box-shadow: 0 20px 30px black;
+    border-radius: 20px;
+}
+body{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: linear-gradient(90deg,#eeaeca,#94bbe9);
+}
+.container{
+
+   
+
+    
+}
+   
+.card1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    position: relative;
+    background:linear-gradient(90deg,#eeaeca,#94bbe9);
+    box-shadow: 0 10px 60px black;
+    margin-top: 10px;
+    margin: 20px;
+
+
+
+    
+}
+.tumb1{
+    flex: 1 1 200px;
+    height: 200px;
+    background: linear-gradient(90deg,#eeaeca,#94bbe9);
+    background-image: url(surface-irrigation-compressed.webp);
+    width: 100%;
+    
+}
+.content1{
+    flex: 2 1 300px;
+    
+
+}
+.card2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    position: relative;
+    background:linear-gradient(90deg,#eeaeca,#94bbe9);
+    box-shadow: 0 10px 60px black;
+    margin-top: 10px;
+    margin: 20px;
+    
+
+
+
+    
+}
+.tumb2{
+    flex: 1 1 200px;
+    height: 200px;
+    background: linear-gradient(90deg,#eeaeca,#94bbe9);
+    background-image: url(wepik-2022513-9459.jpg);
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    
+}
+.content2{
+    flex: 2 1 300px;
+    
+}
+.un{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    position: relative;
+    background:linear-gradient(90deg,#eeaeca,#94bbe9);
+    box-shadow: 0 10px 60px black;
+    margin-top: 10px;
+    margin: 20px;
+
+
+
+    
+}
+.un1{
+    flex: 1 1 200px;
+    height: 200px;
+    background: linear-gradient(90deg,#eeaeca,#94bbe9);
+    background-image: url(drip-irrigation.png);
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    
+}
+.un2{
+    flex: 2 1 300px;
+    
+}
+.card4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    position: relative;
+    background:linear-gradient(90deg,#eeaeca,#94bbe9);
+    box-shadow: 0 10px 60px black;
+    margin-top: 10px;
+    margin: 20px;
+
+
+
+    
+}
+.tumb4{
+    flex: 1 1 200px;
+    height: 200px;
+    background: linear-gradient(90deg,#eeaeca,#94bbe9);
+    background-image: url(Sub-Surface-Irrigation.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+.content4{
+    flex: 2 1 300px;
+    
+
+}
+.block{
+    width: 100%;
+}
+h2{
+    background:linear-gradient(90deg,red,blue );
+    -webkit-background-clip: text;
+}
+/* Footer styles */
+.footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-links a:hover {
+    color: #777;
+  }
+  
+  .footer-info p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social a:hover {
+    color: #777;
+  }
+  
+  .footer-disclaimer p {
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #777;
+  }
+  
+  /* Media query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .footer-links a {
+      margin-bottom: 10px;
+      display: block;
+    }
+    
+    .footer-social a {
+      margin-bottom: 10px;
+    }
+  }
+  
+@media screen (max-width:786px) {
+    header{
+        width:100%
+    }
+    .title{
+        width: 100%;
+    }
+    
+    body{
+        width: 200%;
+    }
+    
+}
